@@ -3,7 +3,7 @@ var fs  = require("fs")
 var sprintf = require("sprintf-js").sprintf
 var moment = require('moment');
 var Mon = moment.monthsShort()
-
+var Days = moment.weekdaysShort()
 
 function TimeEntry(index,month,mday,wday,category,raw) {
 	this.index = index
