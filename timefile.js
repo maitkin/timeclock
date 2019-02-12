@@ -216,6 +216,7 @@ class TimeFile {
 	parse() {
 
 		let all = []
+
 		// file may not exist yet (clocking in first time)
 		if (!fs.existsSync(this.file)) { return }
 
