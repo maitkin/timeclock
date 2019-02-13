@@ -27,7 +27,7 @@ if (!fs.existsSync(backupDir)) {
 }
 
 program
-	.usage('[options] <file>')
+	.usage('[options]')
 	.option('-f,  --file [file]', 'The file to use for the database')
   .option('-s, --summary-report', 'Print the summary report')
   .option('-d, --day-category-report', 'Print the current week category report')
